@@ -16,7 +16,7 @@
     <li><a href="<c:url value='/'/>">Home</a></li>
     <li><a href="<c:url value='/'/>">Board</a></li>
     <li><a href="<c:url value='/'/>">${loginOut}</a></li>
-    <li><a href="<c:url value='/'/>">Sign in</a></li>
+    <li><a href="<c:url value='/register/add'/>">Sign in</a></li>
     <li><a href=""><i class="fa fa-search"></i></a></li>
   </ul>
 </div>
