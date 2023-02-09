@@ -1,11 +1,13 @@
 package org.example.domain;
 
+import java.util.Date;
+
 public class User {
     private String id;
     private String pwd;
     private String name;
     private String email;
-    private String birth;
+    private Date birth;
     private String sns;
 // setter 설정 --> 연습겸 직접 만들었다.
     public void setId(String id){
@@ -20,7 +22,7 @@ public class User {
     public void setEmail(String email){
         this.email = email;
     }
-    public void setBirth(String birth){
+    public void setBirth(Date birth){
         this.birth = birth;
     }
     public void setSns(String sns){
@@ -39,7 +41,7 @@ public class User {
     public String getEmail(){
         return this.email;
     }
-    public String getBirth(){
+    public Date getBirth(){
         return this.birth;
     }
     public String getSns(){
