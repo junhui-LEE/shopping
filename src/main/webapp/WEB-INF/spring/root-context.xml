@@ -19,4 +19,8 @@
         <property name="password" value="1234"></property>
     </bean>
 
+    <context:component-scan base-package="org.example">
+        <context:exclude-filter type="regex" expression="org.example.diCopy*.*"/>
+    </context:component-scan>
+
 </beans>
