@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
-<%--<%@ page import="java.net.URLDecoder"%>--%>
+<%@ page import="java.net.URLDecoder"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,15 +68,9 @@
     <title>Register</title>
 </head>
 <body>
-<%--<form action="<c:url value="/register/save"/>" method="POST" onsubmit="return formCheck(this)">--%>
 <form:form modelAttribute="user">
     <div class="title">Register</div>
     <div id="msg" class="msg"><form:errors path="id"/></div>
-<%--    <div id="msg" class="msg">--%>
-<%--        <c:if test="${not empty param.msg}">--%>
-<%--            <i class="fa fa-exclamation-circle"> ${URLDecoder.decode(param.msg)}</i>--%>
-<%--        </c:if>--%>
-<%--    </div>--%>
     <label for="">아이디</label>
     <input class="input-field" type="text" name="id" placeholder="8~12자리의 영대소문자와 숫자 조합">
     <label for="">비밀번호</label>
@@ -84,7 +78,7 @@
     <label for="">이름</label>
     <input class="input-field" type="text" name="name" placeholder="홍길동">
     <label for="">이메일</label>
-    <input class="input-field" type="text" name="email" placeholder="email@email.com">
+    <input class="input-field" type="text" name="email" placeholder="example@fastcampus.co.kr">
     <label for="">생일</label>
     <input class="input-field" type="text" name="birth" placeholder="2020-12-31">
     <div class="sns-chk">
@@ -94,7 +88,6 @@
     </div>
     <button>회원 가입</button>
 </form:form>
-<%--</form>--%>
 <script>
     function formCheck(frm) {
         let msg ='';
