@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 @RequestMapping("/board")
 public class BoardController {
+
     @GetMapping("/list")
     // 게시물리스트를 보여주는 메서드
     public String list(HttpServletRequest request) {

@@ -12,8 +12,11 @@
     <!-- Enables the Spring MVC @Controller programming model -->
     <annotation-driven validator="globalValidator" />
     <beans:bean id="globalValidator" class="org.example.domain.GlobalValidator"/>
-    <!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
-    <resources mapping="/**" location="/resources/" />
+
+<!--    <resources mapping="/resources/**" location="/resources/" />-->
+    <resources mapping="/css/**" location="/resources/css/" />
+    <!--    <resources mapping="/**" location="/resources/" />-->
+    <view-controller path="/" view-name="index"/>
 
     <!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
     <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -21,24 +24,21 @@
         <beans:property name="suffix" value=".jsp" />
     </beans:bean>
 
-    <context:component-scan base-package="org.example"/>
+    <context:component-scan base-package="org.example">
+        <context:exclude-filter type="regex" expression="org.example.diCopy*.*"/>
+    </context:component-scan>
 
 
-    <resources mapping="/**" location="/resources/" />
-    <view-controller path="/" view-name="index"/>
 
 
     <beans:bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
         <beans:property name="basenames">
             <beans:list>
-                <beans:value>error_message</beans:value> <!-- /src/main/resources/error_message.properties -->
+               <beans:value>error_message</beans:value>  <!-- /src/main/resources/error_message.properties-->
             </beans:list>
         </beans:property>
         <beans:property name="defaultEncoding" value="UTF-8"/>
     </beans:bean>
 
-    <context:component-scan base-package="org.example">
-        <context:exclude-filter type="regex" expression="org.example.diCopy*.*"/>
-    </context:component-scan>
 
 </beans:beans>
