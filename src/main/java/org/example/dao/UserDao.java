@@ -7,5 +7,6 @@ public interface UserDao {
     User selectUser(String id);
     int insertUser(User user);
     int updateUser(User user);
+    int count() throws Exception;
     void deleteAll() throws Exception;
 }

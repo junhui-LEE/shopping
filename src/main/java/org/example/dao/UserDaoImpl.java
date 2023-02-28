@@ -111,6 +111,26 @@ public class UserDaoImpl implements org.example.dao.UserDao {
         }
         return rowCnt;
     }
+
+    @Override
+    public int count() throws Exception {
+        String sql = "SELECT count(*) FROM user_info ";
+
+        try(
+                Connection conn = ds.getConnection();
+                PreparedStatement pstmt = conn.prepareStatement(sql);
+                ResultSet rs = pstmt.executeQuery();
+        ){
+            rs.next();
+            int result = rs.getInt(1);
+
+            return result;
+        }
+    }
+
+
+
+
     public void deleteAll() throws Exception {
         Connection conn = ds.getConnection();
 
