@@ -5,5 +5,6 @@
 <configuration>
     <typeAliases>
         <typeAlias alias="BoardDto" type="org.example.domain.BoardDto"/>
+        <typeAlias alias="SearchCondition" type="org.example.domain.SearchCondition"/>
     </typeAliases>
 </configuration>
