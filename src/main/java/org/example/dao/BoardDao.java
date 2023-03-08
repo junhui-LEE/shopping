@@ -3,6 +3,7 @@ package org.example.dao;
 import org.example.domain.*;
 
 import org.example.domain.BoardDto;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
@@ -22,4 +23,5 @@ public interface BoardDao {
     int searchResultCnt(SearchCondition sc) throws Exception;
 
 
+    int updateCommentCnt(Integer bno, int cnt);
 }

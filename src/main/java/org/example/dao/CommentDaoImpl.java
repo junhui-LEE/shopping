@@ -1,14 +1,16 @@
 package org.example.dao;
 
 import org.apache.ibatis.session.SqlSession;
+import org.example.domain.CommentDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Repository
-public class CommentDao {
+public class CommentDaoImpl implements CommentDao {
     @Autowired
     private SqlSession session;
     private static String namespace = "org.example.dao.CommentMapper.";
