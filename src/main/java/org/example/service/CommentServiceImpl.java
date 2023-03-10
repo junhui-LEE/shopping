@@ -18,7 +18,7 @@ public class CommentServiceImpl implements CommentService {
         this.commentDao = commentDao;
         this.boardDao = boardDao;
     }
-    @Override
+    @Override// 게시판 번호에 따른 댓글의 수를 리턴한다.
     public int getCount(Integer bno) throws Exception {
         return commentDao.count(bno);
     }

@@ -22,7 +22,7 @@ public class SimpleRestController {
         return p;
     }
 
-    @PostMapping("/send")
+    @PostMapping("/send2")
  //   @ResponseBody
     public Person test2(@RequestBody Person p) {
         System.out.println("p = " + p);
