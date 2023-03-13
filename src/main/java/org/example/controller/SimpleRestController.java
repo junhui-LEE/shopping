@@ -4,13 +4,21 @@ import org.example.domain.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-//@Controller
-@RestController
+@Controller
+//@RestController
 public class SimpleRestController {
+
 //    @GetMapping("/ajax")
 //    public String ajax() {
 //        return "ajax";
 //    }
+
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
+
+
 
     @PostMapping("/send")
  //   @ResponseBody
@@ -21,14 +29,13 @@ public class SimpleRestController {
 
         return p;
     }
-
     @PostMapping("/send2")
  //   @ResponseBody
     public Person test2(@RequestBody Person p) {
         System.out.println("p = " + p);
         p.setName("ABC");
         p.setAge(p.getAge() + 10);
-
         return p;
     }
+
 }
