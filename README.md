@@ -68,6 +68,12 @@ ORDER BY pcno ASC, cno ASC;` <br> 을 사용했습니다.
 ## :point_right: ERD
 ![shopping mall 프로젝트 ERD](./README_IMAGES/ERD.PNG)
 
+## :point_right: git-flow
+![shopping mall 프로젝트 git-flow](./README_IMAGES/git-flow.PNG) 
+
+## :point_right: 프로젝트 규모( Line Of Code )
+![shopping mall 프로젝트 cloc](./README_IMAGES/cloc.PNG)
+
 ## :point_right: 기술 스택
 ### 💻 Front-End
 <img alt="Html" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="Css" src ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScriipt-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=black"/><img alt="jQuery" src ="https://img.shields.io/badge/jQuery-0769AD.svg?&style=for-the-badge&logo=jQuery&logoColor=white"/> <img alt="ajax" src ="https://img.shields.io/badge/ajax-23C8D2.svg?&style=for-the-badge&logo=ajax&logoColor=white"/>
