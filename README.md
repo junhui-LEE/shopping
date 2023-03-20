@@ -64,6 +64,8 @@ ORDER BY pcno ASC, cno ASC;` <br> 을 사용했습니다.
 ### 문서화
 새로운 개발자가 중간에 프로젝트에 참여하더라도 [Wiki](https://github.com/junhui-LEE/shopping/wiki)와 같은 문서를 통해  프로젝트에 대해 쉽게 이해하고 적응할 수 있도록 하였습니다. 
 
+## :point_right: ERD
+![shopping mall 프로젝트 ERD](./images/ERD.PNG)
 
 ## :point_right: 기술 스택
 ### 💻 Front-End
