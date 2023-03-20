@@ -1,15 +1,65 @@
 # shopping mall 프로젝트 
-깃허브 사용법을 연습
+
+
+## :point_right: 프로젝트 소개 
+
+## :point_right: 주요기능
+
+1. 회원시스템
+
+* 유효성검사 : 
+	* 사용자가 회원가입시 id, pwd를 정해진 규칙으로 보내지 않으면 서버에서 에러메시지 출력 
+* 세션, 쿠키 : 
+	* 로그인 성공시 세션ID=계정아이디로 쿠키에 담겨 상태정보가 유지된다.
+	* 로그인 실패시 js에서 에러메시지 출력
+	* 로그인 되지 않은 상태에서 Board메뉴 클릭시 로그인폼 출력, 이후 게시판 메뉴로 바로 이동한다. 구현방법은 로그인페이지에 속성을 hidden으로 하는 `<input>`태그를 만들고 그곳에 게시판 정보를 주고 url에 toURL 파라미터를 붙여서 컨트롤러에서 처리 
+	
+* DB접근 : 
+	* JDBC 사용 , DAO작성 
 
 
 
-유효성검사 : 사용자가 회원가입시 id, pwd를 정해진 규칙으로 보내지 않으면 서버에서 에러메시지 출력 
-세션, 쿠키 : 1) 로그인 성공시 세션ID=계정아이디로 쿠키에 담겨 상태정보가 유지된다.
-                2) 로그인 실패시 js에서 에러메시지 출력
-	   3) 로그인 되지 않은 상태에서 Board메뉴 클릭시 로그인폼 출력, 
-                   이후 게시판 메뉴로 바로 이동한다. 로그인페이지에 hidden으로 게시판 정보를 주고 
-                    url에 toURL 파라미터를 붙여서 처리 
-DB접근 : JDBC 사용 , DAO작성 
+
+
+
+3. ㅁㄴㅇㄹㄴㅁㅇㄹㄴㅁㅇㄹ
+4. ;ㅣㅏㅓ;ㅣㅏㅓ;ㅣㅓ
+5. ㅇㄹㅇㄹㅇㄹㅇ
+
+* ㅁㄴㅇㄻㄴㅇㄹㄴㅁㅇㄹ
+* ㄴㅇㅁㄹㄴㅁㅇㄹㄴㅁㅇㄹㄴㅇ
+* ㄴㅁㄹㄴㅇㄹㄴㅁㅇㄹㄴㅁㅇ
+
+
+* ㄴㅁ이라넘리ㅗ안멍롸
+  * ㅁㄴㅇ;린ㅁㅇ;리ㅏㄴㅇㄹ;ㅣㅏㅓ
+    * ㅁㄴ;ㅣ아런ㅁ;이람ㄴ얼
+    * ㅁㄴㅇ;ㅣ라ㅓㅁㄴㅇ;리ㅏㅁ너
+  * ㅁㄴㅇㄹ;ㅣㅏㅁ넝ㄹ;ㅣㅏㅓ
+* ㄴ뫼ㅏ러ㅗㄴ미ㅏㅇ런ㅁㅇ로
+* ㅣㅁ낭러ㅗ닝라ㅓㅗ
+
+
+## :point_right: 프로젝트 주요 관심사 (진행중)
+
+## :point_right: 기술 스택
+### 💻 Front-End
+<img alt="Html" src ="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="Css" src ="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScriipt-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=black"/><img alt="jQuery" src ="https://img.shields.io/badge/jQuery-0769AD.svg?&style=for-the-badge&logo=jQuery&logoColor=white"/> <img alt="ajax" src ="https://img.shields.io/badge/ajax-23C8D2.svg?&style=for-the-badge&logo=ajax&logoColor=white"/>
+
+### 💻 Back-End
+<img alt="java" src ="https://img.shields.io/badge/java-FBBA00.svg?&style=for-the-badge&logo=java&logoColor=white"/> <img alt="Spring" src ="https://img.shields.io/badge/Spring-6DB33F.svg?&style=for-the-badge&logo=Spring&logoColor=white"/> 
+<img alt="Apache Maven" src ="https://img.shields.io/badge/Apache Maven-C71A36.svg?&style=for-the-badge&logo=Apache Maven&logoColor=white"/> <img alt="mybatis" src ="https://img.shields.io/badge/mybatis-6100A5.svg?&style=for-the-badge&logo=mybatis&logoColor=white"/> <img alt="MySQL" src ="https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/> <img alt="Amazon EC2" src ="https://img.shields.io/badge/Amazon EC2-FF9900.svg?&style=for-the-badge&logo=Amazon EC2&logoColor=white"/> <img alt="Apache Tomcat" src ="https://img.shields.io/badge/Apache Tomcat-F8DC75.svg?&style=for-the-badge&logo=Apache Tomcat&logoColor=white"/> 
+
+### 💻 Dev tools
+<img alt="Visual Studio Code" src ="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?&style=for-the-badge&logo=Visual Studio Code&logoColor=white"/> <img alt="IntelliJ IDEA" src ="https://img.shields.io/badge/IntelliJ IDEA-000000.svg?&style=for-the-badge&logo=IntelliJ IDEA&logoColor=white"/> <img alt="Git" src ="https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white"/> <img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/> <img alt="Sourcetree" src ="https://img.shields.io/badge/Sourcetree-0052CC.svg?&style=for-the-badge&logo=Sourcetree&logoColor=white"/> <img alt="Postman" src ="https://img.shields.io/badge/Postman-FF6C37.svg?&style=for-the-badge&logo=Postman&logoColor=white"/> 
+
+
+
+
+
+
+
+
 
 
 
@@ -67,27 +117,7 @@ DB접근 : JDBC 사용 , DAO작성
 ㅁㄴㅇㄹㄴㅇㄻㄹㄴㅇㄹ
 ㅚㅏㅓㅘㅣㅣㅏㅓㅗ
 
-1. ㅁㄴㅇㄻㄴㅇㄹ
-3. ㅁㄴㅇㄹㄴㅁㅇㄹㄴㅁㅇㄹ
-4. ;ㅣㅏㅓ;ㅣㅏㅓ;ㅣㅓ
-5. ㅇㄹㅇㄹㅇㄹㅇ
 
-* ㅁㄴㅇㄻㄴㅇㄹㄴㅁㅇㄹ
-* ㄴㅇㅁㄹㄴㅁㅇㄹㄴㅁㅇㄹㄴㅇ
-* ㄴㅁㄹㄴㅇㄹㄴㅁㅇㄹㄴㅁㅇ
-
-
-
-
-
-
-* ㄴㅁ이라넘리ㅗ안멍롸
-  * ㅁㄴㅇ;린ㅁㅇ;리ㅏㄴㅇㄹ;ㅣㅏㅓ
-    * ㅁㄴ;ㅣ아런ㅁ;이람ㄴ얼
-    * ㅁㄴㅇ;ㅣ라ㅓㅁㄴㅇ;리ㅏㅁ너
-  * ㅁㄴㅇㄹ;ㅣㅏㅁ넝ㄹ;ㅣㅏㅓ
-* ㄴ뫼ㅏ러ㅗㄴ미ㅏㅇ런ㅁㅇ로
-* ㅣㅁ낭러ㅗ닝라ㅓㅗ
 
 
 
