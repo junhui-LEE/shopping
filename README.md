@@ -2,6 +2,7 @@
 
 
 ## :point_right: 프로젝트 소개 
+> 중고나라 카페를 모티브로 한 중고거래 shopping mall 프로젝트
 
 ## :point_right: 주요기능
 
