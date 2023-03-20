@@ -18,6 +18,11 @@ public class SimpleRestController {
         return "test";
     }
 
+    @GetMapping("/comment")
+    public String comment() {
+        return "comment";
+    }
+
 
 
     @PostMapping("/send")

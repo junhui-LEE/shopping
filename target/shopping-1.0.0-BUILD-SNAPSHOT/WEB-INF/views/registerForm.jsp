@@ -76,9 +76,9 @@
     <label for="">비밀번호</label>
     <input class="input-field" type="text" name="pwd" placeholder="8~12자리의 영대소문자와 숫자 조합">
     <label for="">이름</label>
-    <input class="input-field" type="text" name="name" placeholder="홍길동">
+    <input class="input-field" type="text" name="name" placeholder="이름을 입력해 주세요">
     <label for="">이메일</label>
-    <input class="input-field" type="text" name="email" placeholder="example@fastcampus.co.kr">
+    <input class="input-field" type="text" name="email" placeholder="이메일을 입력해 주세요">
     <label for="">생일</label>
     <input class="input-field" type="text" name="birth" placeholder="2020-12-31">
     <div class="sns-chk">

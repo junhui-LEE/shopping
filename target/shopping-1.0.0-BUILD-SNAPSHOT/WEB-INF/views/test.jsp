@@ -133,7 +133,7 @@ comment: <input type="text" name="comment"><br>
     $("#commentList").on("click", ".replyBtn",function(){
       // 1. replyForm 을 옮긴다.
       $("#replyForm").appendTo($(this).parent());
-      // 2. 답글을 입력하는 폼을 보여준다. 
+      // 2. 답글을 입력하는 폼을 보여준다.
       $("#replyForm").css("display", "block");
     });
 

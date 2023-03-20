@@ -22,11 +22,15 @@
     <li><a href="<c:url value='/register/add'/>">Sign in</a></li>
     <li><a href=""><i class="fas fa-search small"></i></a></li>
   </ul>
+
 </div>
 <div style="text-align:center">
   <h1>This is HOME</h1>
-  <h1>This is HOME</h1>
-  <h1>This is HOME</h1>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1>회원가입시 id입력에 공백이 있을경우 클라이언트 에러 납니다.</h1>
+  <h3> - 영대문자 조합은 안하셔도 됩니다.</h3>
+  <h1>생년월일 입력시 정해진 형식( ex: 2020-12-12 )이 아니면 유효성검사에서 걸러집니다</h1>
+  <h3> - 회원가입 화면이 계속 나오면 회원등록이 안된것 입니다.</h3>
 </div>
 </body>
 </html>
