@@ -3,6 +3,8 @@
 
 ## :point_right: 프로젝트 소개 
 > 중고나라 카페를 모티브로 한 중고거래 shopping mall 프로젝트
+>
+> 😄 http://3.34.199.121:8080/shopping/
 
 ## :point_right: 주요기능
 
@@ -38,6 +40,8 @@
 ### 댓글, 답글(대댓글) :
 
 * 사용자가 Board메뉴를 누른후 임의의 게시물제목을 누르면 댓글과 답글을 작성할 수 있습니다. 
+* 트랜잭션 처리 : 
+	* 사용자가 댓글 및 답글을 달 경우 comment테이블에 CommentDto추가하는 쿼리랑 board테이블에 comment_cnt를 갱신하는 쿼리를 하나로 묶어서 처리 [코드보기](https://github.com/junhui-LEE/shopping/blob/main/src/main/java/org/example/service/CommentServiceImpl.java)
 * 댓글 입력폼이나 답글 입력폼에서 댓글 및 답글의 CRUD를 하면 ajax를 통해서 비동기로 각각의 매핑되는 서버(메서드)와 통신합니다. 
 * 사용자는 정렬된 댓글과 답글을 봐야 하기 때문에 쿼리는 <br>
 `SELECT cno, bno, ifnull(pcno, cno) as pcno, comment, commenter, reg_date, up_date 
@@ -67,6 +71,12 @@ ORDER BY pcno ASC, cno ASC;` <br> 을 사용했습니다.
 
 ## :point_right: ERD
 ![shopping mall 프로젝트 ERD](./README_IMAGES/ERD.PNG)
+
+## :point_right: git-flow
+![shopping mall 프로젝트 git-flow](./README_IMAGES/git-flow.PNG) 
+
+## :point_right: 프로젝트 규모( Line Of Code )
+![shopping mall 프로젝트 cloc](./README_IMAGES/cloc.PNG)
 
 ## :point_right: 기술 스택
 ### 💻 Front-End
